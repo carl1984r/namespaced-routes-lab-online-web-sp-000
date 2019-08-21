@@ -16,7 +16,7 @@ class ArtistsController < ApplicationController
 
     end
 
-  end
+
 
   def index
     @artists = Artist.all
